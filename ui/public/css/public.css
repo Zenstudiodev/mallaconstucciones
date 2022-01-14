@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#top_header {
+    background: #008da1;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#top_header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div#nav_container {
+    background: #f8f9fa;
+}
+
+.home_title {
+    text-align: center;
+    font-weight: 600;
+    /* text-transform: uppercase;*/
+    color: #005f76;
+    border-bottom: solid #b1b1b1 1px;
+    margin: 2em auto 1em auto;
+    padding-bottom: 10px;
+}
+
+#parallax_1h {
+    background-image: url(/ui/public/images/parallax_fp.jpg);
+    background-attachment: fixed;
+    height: 300px;
+    padding-top: 5%;
+    position: relative;
+    margin-top: 40px;
+}
+
+#parallax_title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
+    display: block;
+    margin: auto;
+    text-shadow: 1px 4px 5px #201f1f;
+}
+div#quality_container {
+    padding: 4rem 0;
+}
+.icon_container {
+    background: #00c7db;
+    color: #fff;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding-top: 18px;
+    font-size: 2rem;
+    margin: auto;
+}
+h3.quality_t {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #00c7db;
+    margin-top: 10px;
+}
+div#contacto_container {
+    padding: 2rem;
+    background: #f8f9fa;
+}
+footer {
+    background-color: #4F5155;
+    height: 430px;
+    padding-top: 3rem;
+    color: #fff;
+}
+
+footer h4{
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    text-decoration:none;
+}
+footer a:hover{
+    color: #00c7db;
+}
+ footer .list-group{
+
+ }
+footer .list-group-item{
+    background: none;
+    color: #fff;
+}
+
+
+
+/*/ `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    div#nav_container {
+        background: #f8f9fa;
+        display: block;
+    }
+    #logo_main{
+        width:100%;
+    }
+
+    #parallax_1h {
+        padding-top: 15%;
+    }
+    #parallax_title {
+        font-size: 2rem;
+        width: 70%;
+    }
+    footer {
+        height: 900px;
+    }
+}
+
+/*/ `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }*/
