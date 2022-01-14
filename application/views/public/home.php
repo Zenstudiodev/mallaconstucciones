@@ -54,68 +54,157 @@ $this->layout('public/public_master');
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md">
+            <div class="col-12 col-md-4">
                 <div class="card" style="">
                     <img src="/ui/public/images/fp_1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Malla Galvanizada</h5>
-                        <p class="card-text">La malla metálica está recubierta repetidamente con zinc para sellar la
-                            malla y protegerla del óxido y la corrosión</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Instalación de malla galvanizada</h5>
+						<p class="card-text">dentro y fuera de la ciudad capital</p>
+                        <a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Instalación de malla galvanizada&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md">
+            <div class="col-12 col-md-4">
                 <div class="card" style="">
                     <img src="/ui/public/images/fp_2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Malla forrada en PVC</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Instalación de Euro-rejas</h5>
+                        <p class="card-text">en alturas de 1.00 metro, 1.50 metros y 2.00 metros de alto</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Instalación de Euro-rejas&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md">
+            <div class="col-12 col-md-4">
                 <div class="card" style="">
                     <img src="/ui/public/images/fp_3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Reja Estilo Europeo</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Instalación de malla galvanizada</h5>
+                        <p class="card-text">en áreas deportivas</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Instalación de malla galvanizada&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md">
-                <div class="card" style="">
-                    <img src="/ui/public/images/fp_4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Razor Ribon</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md">
-                <div class="card" style="">
-                    <img src="/ui/public/images/fp_5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Barandas y pasamanos</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_4.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Instalación de Razor ribbon </h5>
+						<p class="card-text">galvanizado y en acero inoxidable</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Instalación de Razor ribbon&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_5.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Fabricación de rollos de malla</h5>
+						<p class="card-text">galvanizada en todas las alturas y cuadros deseados</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Fabricación de rollos de malla&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_6.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Levantado de muro de block</h5>
+						<p class="card-text">con razor ribbon</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Levantado de muro de block, con razor ribbon&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_7.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Fabricación de malla</h5>
+						<p class="card-text">Galvanizada en calibre 10</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Fabricación de malla galvanizada en calibre 10&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_8.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Fabricación de malla galvanizada</h5>
+						<p class="card-text">en cuadro de 1 pulgada</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Fabricación de malla galvanizada en cuadro de 1 pulgadada&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_9.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Cinta de privacidad</h5>
+						<p class="card-text">en diferentes medidas y colores</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Cinta de privacidad en diferentes medidas y colores&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_10.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Instalación de malla</h5>
+						<p class="card-text">con cinta de privacidad</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Instalación de malla con cinta de privacidad&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_11.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Elaboración de puertas</h5>
+						<p class="card-text">y portones con malla galvanizada</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Elaboración de puertas y portones con malla galvanizada&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_12.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Elaboración de portones</h5>
+						<p class="card-text">de metal</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Elaboración de portones de metal&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_13.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Fabricación de malla</h5>
+						<p class="card-text">Galvanizada y con forro de PVC</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Fabricación de malla galvanizada y con forro de PVC&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_14.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Levantado de muro</h5>
+						<p class="card-text">de block con malla galvanizada</p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Levantado de muro de block con malla galvanizada&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div class="card" style="">
+					<img src="/ui/public/images/fp_15.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Elaboración de estructuras de metal</h5>
+						<p class="card-text"> </p>
+						<a href="https://api.whatsapp.com/send/?phone=50242734205&text=Deseo cotizar Elaboración de estructuras de metal&app_absent=0" class="btn btn-success" target="_blank"><i class="fab fa-whatsapp"></i> Cotizar </a>
+					</div>
+				</div>
+			</div>
+
     </div>
     <div id="parallax_1h">
         <h1 id="parallax_title"><span class="align-middle">Estamos listos para cumplir todas sus necesidades de seguridad</span>
