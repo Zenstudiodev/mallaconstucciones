@@ -28,6 +28,10 @@ div#nav_container {
     padding-bottom: 10px;
 }
 
+.card {
+	margin-bottom: 10px;
+}
+
 #parallax_1h {
     background-image: url(/ui/public/images/parallax_fp.jpg);
     background-attachment: fixed;
