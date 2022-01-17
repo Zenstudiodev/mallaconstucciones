@@ -33,7 +33,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light  sticky-top ">
     <!--<div id="nav_container">-->
         <div class="container-fluid" id="nav_container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?php echo base_url();?>">
                 <img id="logo_main" src="/ui/public/images/logo.jpg" alt="Malla Construcciones de Guatemala">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -46,7 +46,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
                             Productos
@@ -59,12 +59,15 @@
                             <li><a class="dropdown-item" href="#">Barandas y Pasamanos</a></li>
 
                         </ul>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#productos_container">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#quality_container">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto_container">Contacto</a>
                     </li>
                 </ul>
             </div>
