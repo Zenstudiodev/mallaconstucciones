@@ -30,7 +30,7 @@ class Home extends Base_Controller
 		$info = $this->input->post('input_mensaje');
 		$captcha=$_POST['g-recaptcha-response'];
 
-		$response =file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LdFJboZAAAAAIqOfSj5Z_ZhMrQSjefpl_3mzdDV&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
+		$response =file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".G_CAPTCHA_SEC."&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
 		$response = json_decode($response);
 
 		if($response->success){
