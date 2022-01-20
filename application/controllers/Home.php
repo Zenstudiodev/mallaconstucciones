@@ -27,24 +27,30 @@ class Home extends Base_Controller
 		$nombre = $this->input->post('input_nombre');
 		$email = $this->input->post('input_email');
 		$telefono = $this->input->post('input_telefono');
-		$mesaje = $this->input->post('input_mensaje');
+		$info = $this->input->post('input_mensaje');
+		$captcha=$_POST['g-recaptcha-response'];
+
+		$response =file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LdFJboZAAAAAIqOfSj5Z_ZhMrQSjefpl_3mzdDV&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
+		$response = json_decode($response);
+
+		if($response->success){
 
 
-		$config['mailtype'] = 'html';
-		$this->email->initialize($config);
+			$config['mailtype'] = 'html';
+			$this->email->initialize($config);
 
 
-		$this->email->from('info@mallaconstrucciones.com', 'Malla Construcciones');
-		$this->email->to($email);
-		$this->email->cc('info@mallaconstrucciones.com');
-		$this->email->bcc('csamayoa@zenstudiogt.com');
-		//$this->email->bcc('them@their-example.com');
+			$this->email->from('info@mallaconstrucciones.com', 'Malla Construcciones');
+			$this->email->to($email);
+			$this->email->cc('info@mallaconstrucciones.com');
+			$this->email->bcc('csamayoa@zenstudiogt.com');
+			//$this->email->bcc('them@their-example.com');
 
-		$this->email->subject('Formulario de contacto');
+			$this->email->subject('Formulario de contacto');
 
 
-		$mensaje ='';
-		$mensaje .='<html><body class="clean-body u_body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #f9f9f9;color: #000000">
+			$mensaje ='';
+			$mensaje .='<html><body class="clean-body u_body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #f9f9f9;color: #000000">
   <!--[if IE]><div class="ie-container"><![endif]-->
   <!--[if mso]><div class="mso-container"><![endif]-->
   <table style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: #f9f9f9;width:100%" cellpadding="0" cellspacing="0">
@@ -72,7 +78,7 @@ class Home extends Base_Controller
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
   <tr>
     <td style="padding-right: 0px;padding-left: 0px;" align="center">';
-		$mensaje .='<img align="center" border="0" src="https://mallaconstrucciones.com/ui/public/images/logo.jpg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 298px;" width="298"/>
+			$mensaje .='<img align="center" border="0" src="https://mallaconstrucciones.com/ui/public/images/logo.jpg" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 298px;" width="298"/>
       
     </td>
   </tr>
@@ -128,7 +134,7 @@ class Home extends Base_Controller
     <p style="font-size: 14px; line-height: 210%;">'.$nombre.'</p>
     <p style="font-size: 14px; line-height: 210%;">'.$email.'</p>
     <p style="font-size: 14px; line-height: 210%;">'.$telefono.'</p>
-    <p style="font-size: 14px; line-height: 210%;">'.$mensaje.'</p>
+    <p style="font-size: 14px; line-height: 210%;">'.$info.'</p>
     
   </div>
 
@@ -185,7 +191,7 @@ class Home extends Base_Controller
     <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 30px;" valign="top"><![endif]-->
     <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 30px">
       <tbody><tr style="vertical-align: top"><td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-        <a href="https://facebook.com/" title="Facebook" target="_blank">
+        <a href="https://www.facebook.com/Mallaconstruccionesgt/" title="Facebook" target="_blank">
           <img src="https://mallaconstrucciones.com/ui/public/images/facebook.png" alt="Facebook" title="Facebook" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
         </a>
       </td></tr>
@@ -195,7 +201,7 @@ class Home extends Base_Controller
     <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 0px;" valign="top"><![endif]-->
     <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 0px">
       <tbody><tr style="vertical-align: top"><td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-        <a href="https://instagram.com/" title="Instagram" target="_blank">
+        <a href="https://www.instagram.com/mallaconstruccionesgt/" title="Instagram" target="_blank">
           <img src="https://mallaconstrucciones.com/ui/public/images/instagram.png" alt="Instagram" title="Instagram" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
         </a>
       </td></tr>
@@ -232,13 +238,22 @@ class Home extends Base_Controller
 </body><html>';
 
 
-		$this->email->message($mensaje);
+			$this->email->message($mensaje);
 
-		//$this->email->send();
+			//$this->email->send();
 
-		if($this->email->send()){
-		redirect(base_url().'#contacto_container');
+			if($this->email->send()){
+				redirect(base_url().'#contacto_container');
+			}
+
+		}else{
+			redirect(base_url().'#contacto_container');
 		}
+
+
+
+
+
 
 		$datos_cliente='';
 	}
