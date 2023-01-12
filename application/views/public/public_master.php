@@ -25,18 +25,19 @@
 </head>
 <body>
 <div id="top_header">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-10">
                 <p>
+                    <a class="navbar-brand" href="<?php echo base_url();?>">
+                        <img id="logo_main" src="/ui/public/images/logo.jpg" alt="Malla Construcciones de Guatemala">
+                    </a>
                     <a href="https://wa.me/50242734205" target="_blank"><i class="fab fa-whatsapp"></i> 4273-4205 |</a>
                     <a href="tel:+50224351508"><i class="fas fa-phone"></i> 2435-1508 |</a>
-                    <a href="tel:+50222306151"><i class="fas fa-phone"></i> 2230-6151</a>
+                    <a href="tel:+50222306151"><i class="fas fa-phone"></i> 2230-6151    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a>
+                    <a href="https://www.waze.com/en/live-map/directions?latlng=14.661567974067776%2C-90.58991432189943" target="_blank" class="align-right" > 15 Av. 10-79 Zona 6 de Mixco, Guatemala</a>
 
                 </p>
-            </div>
-            <div class="col">
-                <p>15 Av. 10-79 Zona 6 de Mixco, Guatemala</p>
             </div>
         </div>
     </div>
@@ -48,9 +49,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light  sticky-top ">
     <!--<div id="nav_container">-->
         <div class="container-fluid" id="nav_container">
-            <a class="navbar-brand" href="<?php echo base_url();?>">
-                <img id="logo_main" src="/ui/public/images/logo.jpg" alt="Malla Construcciones de Guatemala">
-            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -93,52 +91,7 @@
 <!-- Content Wrapper. Contains page content -->
 <?php echo $this->section('page_content') ?>
 <!-- /.content-wrapper -->
-<footer>
 
-    <div class="container">
-        <div class="row">
-            <!--<div class="col-12 col-md">
-                <h4>Productos</h4>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"
-                    <a href="#">Malla Galvanizada</a></li>
-                    <li class="list-group-item"><a href="#">Malla forrada en PVC</a></li>
-                    <li class="list-group-item"><a href="#">Reja Estilo Europeo</a></li>
-                    <li class="list-group-item"><a href="#">Razor Ribon</a></li>
-                    <li class="list-group-item"><a href="#">Barandas y pasamanos</a></li>
-                </ul>
-            </div>-->
-            <div class="col-12 col-md">
-                <h4>Redes</h4>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="https://www.facebook.com/Mallaconstruccionesgt/"><i class="fab fa-facebook-square"></i> Facebook</a></li>
-                    <li class="list-group-item"><a href="https://www.instagram.com/mallaconstruccionesgt/"><i class="fab fa-instagram"></i> Instagram</a></li>
-                </ul>
-
-
-            </div>
-            <div class="col-12 col-md">
-                <h4>ubicacion</h4>
-                <p>15 Av. 10-79 Zona 6 de Mixco, Guatemala</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18836.57664287253!2d-90.59237281487589!3d14.667886894598524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85899ff2c22433a9%3A0x1c7b8ce759376473!2sCol%20San%20Francisco%2C%20Cdad.%20de%20Guatemala!5e1!3m2!1ses!2sgt!4v1642096086976!5m2!1ses!2sgt"
-                        style="border:0; width:100%; height:250px;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="col">
-                <h4>Contato</h4>
-
-
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="https://wa.me/50242734205" target="_blank"><i
-                                    class="fab fa-whatsapp"></i> 4273-4205</a></li>
-                    <li class="list-group-item"><a href="tel:+50224351508"><i class="fas fa-phone"></i> 2435-1508</a>
-                    </li>
-                    <li class="list-group-item"><a href="tel:+50222306151"><i class="fas fa-phone"></i> 2230-6151</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <!-- Optional JavaScript; choose one of the two! -->
@@ -154,6 +107,15 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 -->
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6CR2QYPQW"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-P6CR2QYPQW');
+</script>
 <!-- JS personalizado -->
 <?php echo $this->section('js_p') ?>
 </body>

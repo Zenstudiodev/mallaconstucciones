@@ -45,7 +45,7 @@ $this->layout('public/public_master');
 	<div class="row">
 		<div class="col-12">
 			<h2 class="home_title text-uppercase"> Venta, Fabricación e Instalación <br/>
-				<small class="text-muted text-lowercase">de Malla Galvanizada, Razor Ribbon, Privacinta, Euro-reja,
+				<small class="text-muted text-lowercase">de Cercas perimetrales, Malla Galvanizada, Razor Ribbon, Privacinta, Euro-reja,
 					Portones de metal y de malla, tuberia galvanizada y sus accesorios.
 				</small>
 			</h2>
@@ -223,6 +223,53 @@ $this->layout('public/public_master');
 
 		</div>
 	</div>
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-12 col-md">
+                    <h4>Productos</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"
+                        <a href="#">Malla Galvanizada</a></li>
+                        <li class="list-group-item"><a href="#">Malla forrada en PVC</a></li>
+                        <li class="list-group-item"><a href="#">Reja Estilo Europeo</a></li>
+                        <li class="list-group-item"><a href="#">Razor Ribon</a></li>
+                        <li class="list-group-item"><a href="#">Barandas y pasamanos</a></li>
+                    </ul>
+                </div>-->
+                <div class="col-12 col-md">
+                    <h4>Redes</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.facebook.com/Mallaconstruccionesgt/" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                        <li class="list-group-item"><a href="https://www.instagram.com/mallaconstruccionesgt/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li class="list-group-item"><a href="https://www.waze.com/en/live-map/directions?latlng=14.661567974067776%2C-90.58991432189943" target="_blank"><i class="fab fa-waze"></i> Waze</a></li>
+                    </ul>
+
+
+                </div>
+                <div class="col-12 col-md">
+                    <h4>ubicacion</h4>
+                    <p>15 Av. 10-79 Zona 6 de Mixco, Guatemala</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15439.606321475481!2d-90.5899241!3d14.6615264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d6340b99bbab15d!2sMalla%20Construcciones%20de%20Guatemala%20S.A.!5e0!3m2!1ses-419!2sgt!4v1673476762843!5m2!1ses-419!2sgt"
+                            style="border:0; width:100%; height:250px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col">
+                    <h4>Contato</h4>
+
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://wa.me/50242734205" target="_blank"><i
+                                        class="fab fa-whatsapp"></i> 4273-4205</a></li>
+                        <li class="list-group-item"><a href="tel:+50224351508"><i class="fas fa-phone"></i> 2435-1508</a>
+                        </li>
+                        <li class="list-group-item"><a href="tel:+50222306151"><i class="fas fa-phone"></i> 2230-6151</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 	<div id="parallax_1h">
 		<h1 id="parallax_title"><span class="align-middle">CALIDAD, SERVICIO y SEGURIDAD que se nota!</span>
 		</h1>
