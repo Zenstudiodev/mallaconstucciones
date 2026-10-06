@@ -32,6 +32,67 @@ div#nav_container {
 	margin-bottom: 10px;
 }
 
+.presentation-video {
+    padding: 3rem 0;
+    background: #eef7f8;
+}
+
+.presentation-video-eyebrow {
+    color: #005f76;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.presentation-video-copy h2 {
+    color: #005f76;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.presentation-video-copy > p:not(.presentation-video-eyebrow) {
+    color: #414b50;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.presentation-video-player {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background: #172b31;
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 24px rgba(0, 95, 118, 0.15);
+}
+
+.presentation-video-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: #005f76;
+    font-size: 0.875rem;
+    text-underline-offset: 3px;
+}
+
+.presentation-video-cta:focus-visible,
+.presentation-video-link:focus-visible,
+.presentation-video-player:focus-visible {
+    outline: 3px solid #005f76;
+    outline-offset: 4px;
+}
+
+@media (max-width: 991.98px) {
+    .presentation-video {
+        padding: 2rem 0;
+    }
+
+    .presentation-video-cta {
+        width: 100%;
+    }
+}
+
 #parallax_1h {
     background-image: url(/ui/public/images/parallax_fp.jpg);
     background-attachment: fixed;

@@ -41,6 +41,30 @@ $this->layout('public/public_master');
 	</div>
 </div>
 
+<section id="video_container" class="presentation-video" aria-labelledby="presentation-video-title">
+	<div class="container">
+		<div class="row align-items-center g-4">
+			<div class="col-12 col-lg-5 order-lg-2 presentation-video-copy">
+				<p class="presentation-video-eyebrow">Malla Construcciones de Guatemala</p>
+				<h2 id="presentation-video-title">Conoce Malla Construcciones</h2>
+				<p>Mira cómo trabajamos en la instalación de mallas y soluciones metálicas. Cuéntanos qué necesitas y solicita tu cotización.</p>
+				<a class="btn btn-success presentation-video-cta" href="https://wa.me/50242734205?text=Hola%2C%20vi%20el%20video%20en%20su%20p%C3%A1gina%20y%20deseo%20solicitar%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener noreferrer">
+					<i class="fab fa-whatsapp" aria-hidden="true"></i> Cotizar por WhatsApp
+				</a>
+			</div>
+			<div class="col-12 col-lg-7 order-lg-1">
+				<div class="ratio ratio-16x9 rounded-3 overflow-hidden bg-dark">
+					<video class="presentation-video-player d-block w-100 h-100" controls playsinline preload="none" width="1280" height="720" poster="/ui/public/images/video-presentacion.webp" aria-label="Video de presentación de Malla Construcciones">
+						<source src="/ui/public/videos/malla-presentacion.mp4" type="video/mp4">
+						Tu navegador no puede reproducir este video. <a href="/ui/public/videos/malla-presentacion.mp4">Abrir el video de Malla Construcciones</a>.
+					</video>
+				</div>
+				<a class="presentation-video-link" href="/ui/public/videos/malla-presentacion.mp4" target="_blank" rel="noopener noreferrer">Abrir video en otra pestaña</a>
+			</div>
+		</div>
+	</div>
+</section>
+
 <div class="container">
 	<div class="row">
 		<div class="col-12">
